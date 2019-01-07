@@ -1,25 +1,97 @@
+body {
+	font-family: 'Comfortaa', cursive;
+}
+
+
 #petit {
 	max-width:30px;
 	max-height:30px;
 }
 
-#pub6 {
-	max-height:40px;
+.title {
+	font-size:23px;
+	color:#5D5D5D;
 }
 
-.petit {
-	max-width:17px;
-	max-height:17px;
+.email {
+	border:solid 1px #000000;
+	border-radius:3px;
+	text-align:left;
+	margin-left:7%;
+	margin-right:7%;
+	padding-left:10px;
+	color:grey;
+	height:55px;
+	width:415px;
+	font-size:15px;
 }
+
+.bouton {
+	background:#071F98;
+	color:white;
+	border-radius:3px;
+	text-align:center;
+	margin-left:7%;
+	margin-right:7%;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-weight:bold;
+	margin-top:25px;
+	height:55px;
+	width:415px;
+}
+
+.bouton:hover {
+	background:#061C89;
+	box-shadow:1px 1px 1px 1px #D9D2D2; 
+}
+
+
+
+
+
+
 
 .article {
 	max-width:430px;
 }
 
-.pub {
-	max-height:20px;
+.lien_article {
+	text-orientation:left;
 }
 
-.pub4 {
+.petit {
+	max-width:17px;
+	max-height:17px;
+	margin-left:auto;
+}
+
+#pubs {
+	display:inline-flex;
+	text-align:center;
+}
+
+#pub1 {
+	max-height:20px;
+	flex:1;
+}
+
+#pub2 {
+	max-height:32px;
+	flex:1;
+}
+
+#pub3 {
+	max-height:26px;
+	flex:1;
+}
+
+#pub4 {
 	max-height:40px;
+	flex:1;
+}
+
+#pub5 {
+	max-height:17px;
+	flex:1;
 }
