@@ -1,0 +1,25 @@
+#petit {
+	max-width:30px;
+	max-height:30px;
+}
+
+#pub6 {
+	max-height:40px;
+}
+
+.petit {
+	max-width:17px;
+	max-height:17px;
+}
+
+.article {
+	max-width:430px;
+}
+
+.pub {
+	max-height:20px;
+}
+
+.pub4 {
+	max-height:40px;
+}
