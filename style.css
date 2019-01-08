@@ -1,5 +1,6 @@
 body {
 	text-align:center;
+	margin:0px;
 }
 
 #top {
@@ -64,55 +65,108 @@ body {
 
 
 
+
+#fourBlocks {
+
+}
+
+#fourBlocks p {
+	font-family: 'Comfortaa', cursive;
+	color:#5D5D5D;
+}
+
+
+
+
+
+
 #sixBlocks {
 	background-color:#F5F5F5;
 	text-align:left;
+	max-width:100%;
+	padding-bottom:70px;
 }
 
-#sixBlocks p{
+#blockText {
+	padding-top:40px;
+	max-width:100%;
+}
+
+#blockText h2 {
+	margin-bottom:-1px;
+	color:#565555;
+	font-size:30px;
+	margin-left:7%;
+	margin-right:7%;
+}
+
+#blockText p {
 	font-family: 'Comfortaa', cursive;
+	line-height:28px;
 	color:#5D5D5D;
+	margin-left:7%;
+	margin-right:7%;
+	padding-bottom:50px;
 }
 
 #blocks {
 	max-width:100%;
 	text-align:center;
-	display:flex;
+	display:block;
 	flex-flow:column wrap;
 }
 
+#blocks img {
+	padding-right:10px;
+}
+
 .block {
+	font-family: 'Comfortaa', cursive;
+	justify-content:flex-start;
+	margin-bottom:5px;
+	height:40px;
+	max-width:450px;
+	margin-left:5%;
+	margin-right:5%;
+	padding-top:25px;
+	padding-left:25px;
 	background:white;
 	text-align:center;
 	font-weight:bold;
-	height:70px;
-	max-width:90%;
 	font-size:20px;
+	text-decoration: none;
+	color:black;
+	display:flex;
 }
 
-#block1 {
+#b1 {
 	flex:1;
 }
 
-#block2 {
+#b2 {
 	flex:2;
 }
 
-#block3 {
+#b3 {
 	flex:3;
 }
 
-#block4 {
+#b4 {
 	flex:4;
 }
 
-#block5 {
+#b5 {
 	flex:5;
 }
 
-#block6 {
+#b6 {
 	flex:6;
 }
+
+
+
+
+
 
 .article {
 	max-width:90%;
@@ -137,6 +191,7 @@ body {
 	max-height:17px;
 	margin-left:auto;
 }
+
 
 
 
