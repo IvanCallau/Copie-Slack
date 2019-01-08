@@ -1,24 +1,35 @@
 body {
-	font-family: 'Comfortaa', cursive;
+	text-align:center;
 }
 
+#top {
+	min-width:200px;
+	display:flex;
+}
 
 #petit {
 	max-width:30px;
 	max-height:30px;
+	justify-content:flex-end;
 }
 
-.title {
+#title {
 	font-size:23px;
 	color:#5D5D5D;
-}
-
-.email {
-	border:solid 1px #000000;
-	border-radius:3px;
 	text-align:left;
 	margin-left:7%;
 	margin-right:7%;
+}
+
+#title h1 p{
+	padding-left:7%;
+}
+
+.email {
+	font-family: 'Comfortaa', cursive;
+	border:solid 1px #5D5D5D;
+	border-radius:3px;
+	text-align:left;
 	padding-left:10px;
 	color:grey;
 	height:55px;
@@ -27,33 +38,94 @@ body {
 }
 
 .bouton {
+	font-family: 'Comfortaa', cursive;
 	background:#071F98;
 	color:white;
 	border-radius:3px;
 	text-align:center;
-	margin-left:7%;
-	margin-right:7%;
-	padding-top:3px;
-	padding-bottom:3px;
+	padding-top:10px;
 	font-weight:bold;
 	margin-top:25px;
 	height:55px;
 	width:415px;
+	font-size:15px;
 }
 
 .bouton:hover {
 	background:#061C89;
-	box-shadow:1px 1px 1px 1px #D9D2D2; 
+	box-shadow:1px 1px 1px 1px #D9D2D2;
+}
+
+#img1 {
+	max-width:70%;
 }
 
 
 
 
 
+#sixBlocks {
+	background-color:#F5F5F5;
+	text-align:left;
+}
 
+#sixBlocks p{
+	font-family: 'Comfortaa', cursive;
+	color:#5D5D5D;
+}
+
+#blocks {
+	max-width:100%;
+	text-align:center;
+	display:flex;
+	flex-flow:column wrap;
+}
+
+.block {
+	background:white;
+	text-align:center;
+	font-weight:bold;
+	height:70px;
+	max-width:90%;
+	font-size:20px;
+}
+
+#block1 {
+	flex:1;
+}
+
+#block2 {
+	flex:2;
+}
+
+#block3 {
+	flex:3;
+}
+
+#block4 {
+	flex:4;
+}
+
+#block5 {
+	flex:5;
+}
+
+#block6 {
+	flex:6;
+}
 
 .article {
-	max-width:430px;
+	max-width:90%;
+	min-height:520px;
+	box-shadow:1px 1px 15px 1px #D9D2D2;
+}
+
+.article:hover {
+	box-shadow:1px 1px 30px 1px #D9D2D2;
+}
+
+.img-article {
+	max-width:100%
 }
 
 .lien_article {
@@ -66,32 +138,48 @@ body {
 	margin-left:auto;
 }
 
+
+
+
+
 #pubs {
-	display:inline-flex;
-	text-align:center;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	align-items:center;
 }
 
 #pub1 {
-	max-height:20px;
+	max-width:140px;
+    margin:10px;
+    text-align:center;
 	flex:1;
 }
 
 #pub2 {
-	max-height:32px;
-	flex:1;
+	max-width:140px;
+    margin:10px;
+    text-align:center;
+	flex:2;
 }
 
 #pub3 {
-	max-height:26px;
-	flex:1;
+	max-width:140px;
+    margin:10px;
+    text-align:center;
+	flex:3;
 }
 
 #pub4 {
-	max-height:40px;
-	flex:1;
+	max-width:140px;
+    margin:10px;
+    text-align:center;
+	flex:4;
 }
 
 #pub5 {
-	max-height:17px;
-	flex:1;
+	max-width:140px;
+    margin:10px;
+    text-align:center;
+	flex:5;
 }
