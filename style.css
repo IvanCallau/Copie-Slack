@@ -5,21 +5,21 @@ body {
 
 #top {
 	min-width:200px;
-	display:flex;
 	border-bottom:2px grey;
-	padding-left:10%;
+	padding-left:15%;
 	text-align:left;
 }
 
 #top h3 {
-	color:#565555;
+	color:#262424;
+	font-size:30px;
 }
 
 #petit {
 	max-width:30px;
 	max-height:30px;
-	justify-content:flex-end;
 	float:right;
+	padding-right:10%;
 }
 
 #title {
@@ -73,27 +73,17 @@ body {
 	max-width:70%;
 }
 
-
-
-
-
-
 #fourBlocks {
-
+	text-align:left;
+	padding-left:10%;
+	padding-right:10%;
+	color:#565555;
 }
 
 #fourBlocks p {
 	font-family:'Comfortaa', cursive;
 	color:#5D5D5D;
 }
-
-div > div > img {
-	text-align: left;
-}
-
-
-
-
 
 #sixBlocks {
 	background-color:#F5F5F5;
